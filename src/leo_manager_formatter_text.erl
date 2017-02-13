@@ -98,6 +98,7 @@ help(PluginMod) ->
                                  ?CMD_RESTORE_MNESIA], []),
                            help("[S3-related Maintenance]\r\n",
                                 [?CMD_CREATE_USER,
+                                 ?CMD_IMPORT_USER,
                                  ?CMD_DELETE_USER,
                                  ?CMD_UPDATE_USER_ROLE,
                                  ?CMD_UPDATE_USER_PW,
